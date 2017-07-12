@@ -1,0 +1,245 @@
+# CRM Home Page Objects
+link_Home=//img[@id='homeButtonImage']
+link_Home=#homeButtonImage
+link_Sales=//img[@id='SFA']/span[1]/span
+link_Sales=a[title='Sales']
+link_Opportunity=a#nav_oppts span:nth-of-type(2)
+link_Opportunity=html/body/div[4]/div[5]/div/div[3]/div/div/ul/li[1]/span/span/span/span[1]/li[2]/a/span[2]
+link_Account=a#nav_accts span:nth-of-type(2)
+link_Contact=a#nav_conts span:nth-of-type(2)
+link_Forecast=a#sgs_forecast span:nth-child(2)
+link_RFx=a#new_rfx span:nth-child(2)
+
+# Account Page Object
+btn_NewAccount=li[id*='Mscrm.HomepageGrid.account.NewRecord'] span span
+table_AccInfo=table[name='ACCOUNT_INFORMATION'] td#name_d span div
+table_AccInfo=//table[@name='ACCOUNT_INFORMATION']/tbody
+txtbx_AccountName=table[name='ACCOUNT_INFORMATION'] div#name div input#name_i
+txtbx_AccountName1=//div[@id='name']/div[1]
+txtbx_SearchTerm=table[name='ACCOUNT_INFORMATION'] div#new_searchterm div input#new_searchterm_i
+txtbx_SearchTerm1=//div[@id='new_searchterm']/div[1]
+txtbx_AccountNumber=table[name='ACCOUNT_INFORMATION'] div#accountnumber div input#accountnumber_i
+txtbx_AccountNumber1=//div[@id='accountnumber']/div[1]
+div_AccountName=//div[@id='name']/div[1]
+div_SearchTerm=//div[@id='new_searchterm']/div[1]
+div_AccountNumber=//div[@id='accountnumber']/div[1]
+iFrame1=contentIFrame1
+
+
+# Contact Page Object
+
+# Opportunity Page Object
+btn_NewOpportunity=li[id*='NewRecord'] span span
+btn_SaveForm=img[class*='Save_16']
+btn_Save$CloseOpp=li[title*='Save & Close'] span a
+read_OppName=div#new_opportunitynumber>div:nth-child(2)>input
+table_OppInfo=table[name='opportunity_information'] td#name_d span div
+table_OppInfo=//table[@name='opportunity_information']
+div_OppName=table[name='opportunity_information'] td#name_d div#name
+div_OppName=//div[@id='name']/div[1]
+txtbx_OppName=table[name='opportunity_information'] td#name_d div div input#name_i
+div_PotentialCustName=//div[@id='customerid']/div
+txtbx_PotentialCustName=table[name='opportunity_information'] td#customerid_d div div table tbody tr td input
+div_ProjectProbablity=//div[@id='closeprobability']/div
+txtbx_ProjectProbablity=#closeprobability_i
+iFrame0=contentIFrame0
+formSections=#FormSecNavigationControl-Icon>img
+sectionProductDetails=td[title='Product Offerings'] a
+sectionProductDetails1=//table/tbody/tr[3]/td/a
+sectionSummary=td[title='Summary'] a
+sectionCompOps=td[title='CompOps'] a
+link_NOTES=a[title='NOTES']
+link_Activities=a[title='ACTIVITIES']
+link_PrintNotes=li[title*='Notes'] div
+
+
+
+
+# Revenue Holder Page Object
+iFrameRev=WebResource_RevenueLauncher
+btn_Edit=html/body/button
+btn_Add=.btn.btn-info.btn-xs
+btn_Add=html/body/div[1]/div/div[2]/button
+txtbx_FY=tr:last-child>td:nth-child(3)>div>input
+lookup_ProductFamily=tr:last-child>td:nth-child(4)>div:first-child>div:first-child>div:first-child>input
+txtbx_EstRev=tr:last-child>td:nth-child(5)>div>input
+btn_SaveRH=tr:nth-last-child(1) button[data-bind*='save']
+btn_Cancle=tr:nth-last-child(1) button[data-bind*='cancle']
+btn_Delete=tr:nth-last-child(2) button[data-bind*='Delete']
+table_RevHolder=html/body/div[1]/div/table
+btn_SaveRH1=//*[@id='sgs-mainTable']/tbody/tr/td[7]/span/button[1]
+
+
+# ProductDeatails Page Object
+iFrameProductDetails=WebResource_installbaselauncher
+tableProductDetails=table#sgs-mainTable
+div_Quantity=tr:nth-child(1) td:nth-child(4)
+div_Comments=tr:nth-child(1) td:nth-child(6)
+txtbx_Quantity=tr:nth-child(1) td:nth-child(4) input
+txtbx_Quantity==//*[@id='sgs-mainTable']/tbody/tr[1]/td[4]/div/input
+txtbx_Comments=tr:nth-child(1) td:nth-child(6) input
+txtbx_Comments=//*[@id='sgs-mainTable']/tbody/tr[1]/td[6]/div/input
+btn_EditPD=html/body/button
+
+# OpportunityAssessentDoc Page Object
+btn_OppAssDoc=li[title='Generate Opportunity Assessment']>span>a>span
+radio_Yes=td[name*='pilotphase'] + td>input[value='Yes']
+radio_No=td[name*='pilotphase'] + td>input[value='No']
+date_CustomerReleasedRequest=td[name*='request']+td>input
+date_ResponseDueToCustomer=td[name*='response']+td>input
+txtbx_Notes=td[name*='notes']+td>input
+txtbx_Notes=td[name*='consultant']+td>input
+btn_Submit=input[value='Submit']
+btn_Back=input[value='Back']
+btn_GenerateDocument=input[value='Generate Document']
+
+
+# Forecast Page Object
+
+btn_Save=img[class*='Save_16']
+btn_SaveClose=li:nth-child(2)[title*='Save'] div
+btn_New=li[title*='New'] a
+
+div_FName=//*[@id='sgs_name']/div[1]
+txtbx_Fname=input#sgs_name_i
+txtbx_Fname1=//*[@id='sgs_name']/div[2]/input
+
+div_Opp=td:nth-child(2)[class*='Field-Data'][id*='opp'] div>div:first-child
+div_Opp1=div[id*='sgs_opportunity'] div
+lookup_Opp=div#sgs_opportunity_lookupDiv
+txtbx_lookupOpp=input[id='sgs_opportunity_ledit']
+div_Account=td:nth-child(2)[class*='Field-Data'][id*='account'] div>div:first-child
+lookup_Account=input[id*='account_ledit']
+btn_NewForecastItem=//*[@id='sgs-grid']/div[2]/button
+btn_NewForecastItem1=div#sgs-grid button[data-bind*='addRow']
+div_product=table#table_data tr:last-child td:nth-child(2)>div
+lookup_product=tr:last-child div[class*='lookupInput']>input
+div_Price=table#table_data tr:last-child td:nth-child(4)>div
+txtbx_Price=table#table_data tr:last-child td:nth-child(4)>div input
+btn_SaveFItem=table#table_data tr:last-child td:nth-child(1) span button[data-bind*='save']
+btn_CancleFItem=table#table_data tr:last-child td:nth-child(1) span button[data-bind*='cancel']
+btn_DeleteFItem=table#table_data tr:last-child td:nth-child(1) span button[data-bind*='delete']
+iFrameForecast=WebResource_SalesForecastFormXap
+productSuggestion=//*[@id='typeAhead']/div/div/span
+
+
+
+# RFx Page Object
+table_RFx=//*[@id='{69224d75-d323-4e80-bfc7-21e4054b0e79}']
+div_Name1=td[id*='name'][class*='Data']>div
+div_Name=div[id='new_name']
+div_Name=//div[@id='new_name']
+txtbx_Name=//input[@id='new_name_i']
+txtbx_Name=td[id*='name'][class*='Data']>div input
+div_Opportunity1=td[id*='opp'][class*='Data']>div
+div_Opportunity=//div[@id='new_opportunityid']/div[1]
+txtbx_Opportunity=//input[@id='new_opportunityid_ledit']
+txtbx_Opportunity=td[id*='opp'][class*='Data']>div input
+txtbx_RFxRef=td[id*='ref'][class*='Data']>div
+
+#RFx stage Commercial Operation
+div_1StartDate=div[id*='comopsreceivedopportunity'] div[title*='Start']+ div +div
+div_1DueDate=div[id*='comopsreceivedopportunity'] div[title*='Due']+ div +div
+div_1EndDate=div[id*='comopsreceivedopportunity'] div[title*='End']+ div +div
+
+txtbx_1StartDate=div[id*='comopsreceivedopportunity'] div[title*='Start']+ div +div input
+txtbx_1DueDate=div[id*='comopsreceivedopportunity'] div[title*='Due']+ div +div input
+txtbx_1EndDate=div[id*='comopsreceivedopportunity'] div[title*='End']+ div +div input
+
+#RFx stage Initial Strategy Meeting
+div_2StartDate=div[id*='initialstrategymeeting'] div[title*='Start']+ div +div
+div_2DueDate=div[id*='initialstrategymeeting'] div[title*='Due']+ div +div
+div_2EndDate=div[id*='initialstrategymeeting'] div[title*='End']+ div +div
+
+txtbx_2StartDate=div[id*='initialstrategymeeting'] div[title*='Start']+ div +div input
+txtbx_22DueDate=div[id*='initialstrategymeeting'] div[title*='Due']+ div +div input
+txtbx_2EndDate=div[id*='initialstrategymeeting'] div[title*='End']+ div +div input
+
+#RFx stage Response Development
+div_3StartDate=div[id*='responsestatus'] div[title*='Start']+ div +div
+div_3DueDate=div[id*='responsestatus'] div[title*='Due']+ div +div
+div_3EndDate=div[id*='responsestatus'] div[title*='End']+ div +div
+
+txtbx_3StartDate=div[id*='responsestatus'] div[title*='Start']+ div +div input
+txtbx_3DueDate=div[id*='responsestatus'] div[title*='Due']+ div +div input
+txtbx_3EndDate=div[id*='responsestatus'] div[title*='End']+ div +div input
+
+#RFx stage Financial Approval Receipt
+div_4StartDate=div[id*='financialapprovalreceipt'] div[title*='Start']+ div +div
+div_4DueDate=div[id*='financialapprovalreceipt'] div[title*='Due']+ div +div
+div_4EndDate=div[id*='financialapprovalreceipt'] div[title*='End']+ div +div
+
+txtbx_4StartDate=div[id*='financialapprovalreceipt'] div[title*='Start']+ div +div input
+txtbx_4DueDate=div[id*='financialapprovalreceipts'] div[title*='Due']+ div +div input
+txtbx_4EndDate=div[id*='financialapprovalreceipts'] div[title*='End']+ div +div input
+
+#RFx stage Submitted to customers
+div_5StartDate=div[id*='submittedtocustomer'] div[title*='Start']+ div +div
+div_5DueDate=div[id*='submittedtocustomer'] div[title*='Due']+ div +div
+div_5EndDate=div[id*='submittedtocustomer'] div[title*='End']+ div +div
+
+txtbx_5StartDate=div[id*='submittedtocustomer'] div[title*='Start']+ div +div input
+txtbx_55DueDate=div[id*='submittedtocustomer'] div[title*='Due']+ div +div input
+txtbx_5EndDate=div[id*='submittedtocustomer'] div[title*='End']+ div +div input
+
+div_STCTotalContractValue=div[id*='stctotalcontractvalue'] div[title*='Total Contract Value']+ div +div
+div_STCNumberOfEndPoints=div[id*='stcnumberofendpoints'] div[title*='Number']+ div +div
+
+txtbx_STCTotalContractValue=div[id*='stctotalcontractvalue'] div[title*='Total Contract Value']+ div +div input
+txtbx_STCNumberOfEndPoints=div[id*='stcnumberofendpoints'] div[title*='Number']+ div +div input
+
+#RFx stage Post Proposal Activity
+div_6StartDate=div[id*='postproposalactivity'] div[title*='Start']+ div +div
+div_66DueDate=div[id*='postproposalactivity'] div[title*='Due']+ div +div
+div_6EndDate=div[id*='postproposalactivity'] div[title*='End']+ div +div
+
+txtbx_7StartDate=div[id*='postproposalactivity'] div[title*='Start']+ div +div input
+txtbx_7DueDate=div[id*='postproposalactivity'] div[title*='Due']+ div +div input
+txtbx_7EndDate=div[id*='postproposalactivity'] div[title*='End']+ div +div input
+
+#RFx stage Contract Initiated
+div_8StartDate=div[id*='contractinitiated'] div[title*='Start']+ div +div
+div_8DueDate=div[id*='contractinitiated'] div[title*='Due']+ div +div
+div_8EndDate=div[id*='contractinitiated'] div[title*='End']+ div +div
+
+txtbx_8StartDate=div[id*='contractinitiated'] div[title*='Start']+ div +div input
+txtbx_8DueDate=div[id*='contractinitiated'] div[title*='Due']+ div +div input
+txtbx_8EndDate=div[id*='contractinitiated'] div[title*='End']+ div +div input
+
+#RFx stage Contract Status
+div_9StartDate=div[id*='contractstatus'] div[title*='Start']+ div +div
+div_9DueDate=div[id*='contractstatus'] div[title*='Due']+ div +div
+div_9EndDate=div[id*='contractstatus'] div[title*='End']+ div +div
+
+txtbx_9StartDate=div[id*='contractstatus'] div[title*='Start']+ div +div input
+txtbx_9DueDate=div[id*='contractstatus'] div[title*='Due']+ div +div input
+txtbx_9EndDate=div[id*='contractstatus'] div[title*='End']+ div +div input
+
+#RFx stage Contract Executed
+div_10StartDate=div[id*='contractexecuted'] div[title*='Start']+ div +div
+div_10DueDate=div[id*='contractexecuted'] div[title*='Due']+ div +div
+div_10EndDate=div[id*='contractexecuted'] div[title*='End']+ div +div
+
+txtbx_10StartDate=div[id*='contractexecuted'] div[title*='Start']+ div +div input
+txtbx_10DueDate=div[id*='contractexecuted'] div[title*='Due']+ div +div input
+txtbx_10EndDate=div[id*='contractexecuted'] div[title*='End']+ div +div input
+
+div_CETotalContractValue=div[id*='cetotalcontractvalue'] div[title*='Total Contract Value']+ div +div
+div_CENumberOfEndPoints=div[id*='cenumberofendpoints'] div[title*='Number']+ div +div
+
+txtbx_CETotalContractValue=div[id*='cetotalcontractvalue'] div[title*='Total Contract Value']+ div +div input
+txtbx_CENumberOfEndPoints=div[id*='cenumberofendpoints'] div[title*='Number']+ div +div input
+
+#RFx stage RFx closed
+div_IsRFxClosed=div[id*='header_process_cts_rfxclosed_d']
+
+sectionRFxStage=td[title*='RFX'] a
+button_AddRFxStage=img[title*='Add RFx Stage record']
+
+div_RespDev=div[id*='responsestatus']>div:first-child
+
+
+btn_NextStage=div:nth-child(2)[title='Next Stage'] div
+
+
+

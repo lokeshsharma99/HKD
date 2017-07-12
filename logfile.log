@@ -1,0 +1,592 @@
+2017-07-12 15:16:26,027 INFO  [Log] Chrome browser started 
+2017-07-12 15:16:27,955 INFO  [Log] Navigating to URL 
+2017-07-12 15:16:41,891 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:16:41,892 INFO  [Log] X 
+2017-07-12 15:16:41,892 INFO  [Log] X 
+2017-07-12 15:16:41,892 INFO  [Log] X 
+2017-07-12 15:16:41,892 INFO  [Log] X 
+2017-07-12 15:16:41,892 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:16:41,892 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:16:41,893 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login2App       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 15:16:41,893 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:16:41,893 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:16:41,898 INFO  [Log] Entering the text in txtbx_Username 
+2017-07-12 15:16:45,190 INFO  [Log] Entering the text in txtbx_Passwd 
+2017-07-12 15:16:46,159 INFO  [Log] Clicking on Webelement btn_Login 
+2017-07-12 15:16:53,518 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:16:53,518 INFO  [Log] X 
+2017-07-12 15:16:53,518 INFO  [Log] X 
+2017-07-12 15:16:53,518 INFO  [Log] X 
+2017-07-12 15:16:53,518 INFO  [Log] X 
+2017-07-12 15:16:53,519 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:16:53,519 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:16:53,519 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 15:16:53,519 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:16:53,519 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:16:53,526 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 15:17:10,669 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 15:17:17,380 INFO  [Log] Wait for 5 seconds 
+2017-07-12 15:17:21,243 INFO  [Log] Clicking on Webelement radio_recordType 
+2017-07-12 15:17:27,846 INFO  [Log] Clicking on Webelement btn_Next 
+2017-07-12 15:17:30,557 INFO  [Log] Entering the text in txt_AccountName 
+2017-07-12 15:17:40,633 ERROR [Log] Not able to enter text --- no such element: Unable to locate element: {"method":"css selector","selector":"input[id='7:1868;a']"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC213382', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\376805\AppData\Local\Temp\scoped_dir22624_16947}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 965e372a79b75e2e29421c0035e33784
+*** Element info: {Using=css selector, value=input[id='7:1868;a']} 
+2017-07-12 15:17:41,441 INFO  [Log] Closing the browser 
+2017-07-12 15:17:44,895 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:17:44,895 INFO  [Log] X 
+2017-07-12 15:17:44,895 INFO  [Log] X 
+2017-07-12 15:17:44,895 INFO  [Log] X 
+2017-07-12 15:17:44,895 INFO  [Log] X 
+2017-07-12 15:17:44,895 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:17:44,896 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:17:44,896 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 refreshData       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 15:17:44,896 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:17:44,896 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:17:44,899 INFO  [Log] Refreshing Data 
+2017-07-12 15:17:47,452 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:17:47,453 INFO  [Log] X 
+2017-07-12 15:17:47,453 INFO  [Log] X 
+2017-07-12 15:17:47,453 INFO  [Log] X 
+2017-07-12 15:17:47,453 INFO  [Log] X 
+2017-07-12 15:17:47,453 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:17:47,453 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:17:47,453 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Close_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 15:17:47,453 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:17:47,453 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:17:47,456 INFO  [Log] Closing the browser 
+2017-07-12 15:17:49,152 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:17:49,152 INFO  [Log] X 
+2017-07-12 15:17:49,152 INFO  [Log] X 
+2017-07-12 15:17:49,152 INFO  [Log] X 
+2017-07-12 15:17:49,152 INFO  [Log] X 
+2017-07-12 15:27:13,057 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:27:13,096 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:27:13,096 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Open_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 15:27:13,096 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:27:13,096 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:27:13,169 INFO  [Log] Opening Browser 
+2017-07-12 15:28:01,714 INFO  [Log] Chrome browser started 
+2017-07-12 15:28:07,831 INFO  [Log] Navigating to URL 
+2017-07-12 15:28:30,972 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:28:30,972 INFO  [Log] X 
+2017-07-12 15:28:30,972 INFO  [Log] X 
+2017-07-12 15:28:30,972 INFO  [Log] X 
+2017-07-12 15:28:30,972 INFO  [Log] X 
+2017-07-12 15:28:30,974 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:28:30,974 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:28:30,976 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login2App       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 15:28:30,976 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:28:30,976 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:28:31,035 INFO  [Log] Entering the text in txtbx_Username 
+2017-07-12 15:28:33,418 INFO  [Log] Entering the text in txtbx_Passwd 
+2017-07-12 15:28:34,836 INFO  [Log] Clicking on Webelement btn_Login 
+2017-07-12 15:28:43,174 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:28:43,174 INFO  [Log] X 
+2017-07-12 15:28:43,174 INFO  [Log] X 
+2017-07-12 15:28:43,175 INFO  [Log] X 
+2017-07-12 15:28:43,175 INFO  [Log] X 
+2017-07-12 15:28:43,175 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:28:43,175 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:28:43,175 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 15:28:43,175 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:28:43,175 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:28:43,182 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 15:28:56,172 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 15:28:59,957 INFO  [Log] Wait for 5 seconds 
+2017-07-12 15:29:03,982 INFO  [Log] Clicking on Webelement radio_recordType 
+2017-07-12 15:29:05,255 INFO  [Log] Clicking on Webelement btn_Next 
+2017-07-12 15:29:06,875 INFO  [Log] Entering the text in txt_AccountName 
+2017-07-12 15:29:14,960 INFO  [Log] FrameList 
+2017-07-12 15:29:21,233 INFO  [Log] Entering the text in txt_AnnualTotalDemand(Gas) 
+2017-07-12 15:29:31,371 ERROR [Log] Not able to enter text --- no such element: Unable to locate element: {"method":"css selector","selector":"input[data-interactive-lib-uid='41']"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC213382', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\376805\AppData\Local\Temp\scoped_dir36236_4300}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 914a9190a1183e70ecaa78bf0b27308d
+*** Element info: {Using=css selector, value=input[data-interactive-lib-uid='41']} 
+2017-07-12 15:29:32,198 INFO  [Log] Closing the browser 
+2017-07-12 15:29:37,464 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:29:37,464 INFO  [Log] X 
+2017-07-12 15:29:37,464 INFO  [Log] X 
+2017-07-12 15:29:37,464 INFO  [Log] X 
+2017-07-12 15:29:37,464 INFO  [Log] X 
+2017-07-12 15:29:37,464 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:29:37,464 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:29:37,464 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 refreshData       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 15:29:37,465 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:29:37,465 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:29:37,471 INFO  [Log] Refreshing Data 
+2017-07-12 15:29:40,268 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:29:40,268 INFO  [Log] X 
+2017-07-12 15:29:40,268 INFO  [Log] X 
+2017-07-12 15:29:40,268 INFO  [Log] X 
+2017-07-12 15:29:40,268 INFO  [Log] X 
+2017-07-12 15:29:40,269 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:29:40,269 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:29:40,269 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Close_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 15:29:40,269 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:29:40,269 INFO  [Log] **************************************************************************************** 
+2017-07-12 15:29:40,271 INFO  [Log] Closing the browser 
+2017-07-12 15:29:42,354 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 15:29:42,355 INFO  [Log] X 
+2017-07-12 15:29:42,355 INFO  [Log] X 
+2017-07-12 15:29:42,355 INFO  [Log] X 
+2017-07-12 15:29:42,355 INFO  [Log] X 
+2017-07-12 16:01:04,389 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:01:04,454 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:01:04,455 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Open_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:01:04,455 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:01:04,455 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:01:04,457 INFO  [Log] Opening Browser 
+2017-07-12 16:01:55,765 INFO  [Log] Chrome browser started 
+2017-07-12 16:02:01,818 INFO  [Log] Navigating to URL 
+2017-07-12 16:02:21,619 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:02:21,619 INFO  [Log] X 
+2017-07-12 16:02:21,619 INFO  [Log] X 
+2017-07-12 16:02:21,619 INFO  [Log] X 
+2017-07-12 16:02:21,619 INFO  [Log] X 
+2017-07-12 16:02:21,632 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:02:21,633 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:02:21,633 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login2App       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:02:21,633 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:02:21,633 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:02:21,733 INFO  [Log] Entering the text in txtbx_Username 
+2017-07-12 16:02:46,254 INFO  [Log] Entering the text in txtbx_Passwd 
+2017-07-12 16:02:47,518 INFO  [Log] Clicking on Webelement btn_Login 
+2017-07-12 16:03:05,083 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:03:05,083 INFO  [Log] X 
+2017-07-12 16:03:05,083 INFO  [Log] X 
+2017-07-12 16:03:05,083 INFO  [Log] X 
+2017-07-12 16:03:05,083 INFO  [Log] X 
+2017-07-12 16:03:05,084 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:05,084 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:05,084 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:03:05,084 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:05,084 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:05,098 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 16:03:10,473 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 16:03:18,197 INFO  [Log] Wait for 5 seconds 
+2017-07-12 16:03:22,097 INFO  [Log] Clicking on Webelement radio_recordType 
+2017-07-12 16:03:23,438 INFO  [Log] Clicking on Webelement btn_Next 
+2017-07-12 16:03:25,160 INFO  [Log] Entering the text in txt_AccountName 
+2017-07-12 16:03:31,203 INFO  [Log] Entering the text in txt_Phone 
+2017-07-12 16:03:40,099 INFO  [Log] Entering the text in txt_AnnualTotalDemand(Gas) 
+2017-07-12 16:03:41,225 INFO  [Log] Entering the text in txt_AnnualTotalDemand(Distillate) 
+2017-07-12 16:03:42,365 INFO  [Log] Clicking on Webelement btn_AccountSave 
+2017-07-12 16:03:52,489 ERROR [Log] Not able to click --- no such element: Unable to locate element: {"method":"xpath","selector":"html/body/div[5]/div[2]/div[6]/div[2]/div/div[3]/div/button[3]"}
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC213382', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\376805\AppData\Local\Temp\scoped_dir38316_15055}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 279a7aa19b242bf9225e4a7c8cc47995
+*** Element info: {Using=xpath, value=html/body/div[5]/div[2]/div[6]/div[2]/div/div[3]/div/button[3]} 
+2017-07-12 16:03:54,173 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:03:54,173 INFO  [Log] X 
+2017-07-12 16:03:54,173 INFO  [Log] X 
+2017-07-12 16:03:54,173 INFO  [Log] X 
+2017-07-12 16:03:54,173 INFO  [Log] X 
+2017-07-12 16:03:54,174 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:54,174 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:54,174 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 refreshData       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:03:54,174 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:54,174 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:54,177 INFO  [Log] Refreshing Data 
+2017-07-12 16:03:58,356 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:03:58,356 INFO  [Log] X 
+2017-07-12 16:03:58,356 INFO  [Log] X 
+2017-07-12 16:03:58,356 INFO  [Log] X 
+2017-07-12 16:03:58,356 INFO  [Log] X 
+2017-07-12 16:03:58,356 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:58,356 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:58,359 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Close_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:03:58,360 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:58,360 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:03:58,363 INFO  [Log] Closing the browser 
+2017-07-12 16:04:05,636 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:04:05,636 INFO  [Log] X 
+2017-07-12 16:04:05,636 INFO  [Log] X 
+2017-07-12 16:04:05,636 INFO  [Log] X 
+2017-07-12 16:04:05,636 INFO  [Log] X 
+2017-07-12 16:20:25,655 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:20:25,655 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:20:25,655 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Open_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:20:25,656 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:20:25,656 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:20:25,660 INFO  [Log] Opening Browser 
+2017-07-12 16:20:49,732 INFO  [Log] Chrome browser started 
+2017-07-12 16:20:52,063 INFO  [Log] Navigating to URL 
+2017-07-12 16:21:09,102 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:21:09,102 INFO  [Log] X 
+2017-07-12 16:21:09,102 INFO  [Log] X 
+2017-07-12 16:21:09,102 INFO  [Log] X 
+2017-07-12 16:21:09,102 INFO  [Log] X 
+2017-07-12 16:21:09,104 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:21:09,104 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:21:09,106 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login2App       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:21:09,106 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:21:09,106 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:21:09,156 INFO  [Log] Entering the text in txtbx_Username 
+2017-07-12 16:21:12,529 INFO  [Log] Entering the text in txtbx_Passwd 
+2017-07-12 16:21:14,153 INFO  [Log] Clicking on Webelement btn_Login 
+2017-07-12 16:21:22,496 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:21:22,496 INFO  [Log] X 
+2017-07-12 16:21:22,496 INFO  [Log] X 
+2017-07-12 16:21:22,496 INFO  [Log] X 
+2017-07-12 16:21:22,496 INFO  [Log] X 
+2017-07-12 16:21:22,496 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:21:22,496 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:21:22,496 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:21:22,497 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:21:22,497 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:21:22,543 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 16:21:40,612 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 16:21:47,029 INFO  [Log] Wait for 5 seconds 
+2017-07-12 16:21:50,961 INFO  [Log] Clicking on Webelement radio_recordType 
+2017-07-12 16:21:52,527 INFO  [Log] Clicking on Webelement btn_Next 
+2017-07-12 16:21:54,144 INFO  [Log] Entering the text in txt_AccountName 
+2017-07-12 16:22:15,231 INFO  [Log] Entering the text in txt_Phone 
+2017-07-12 16:22:16,937 INFO  [Log] Entering the text in txt_AnnualTotalDemand(Gas) 
+2017-07-12 16:22:20,676 INFO  [Log] Entering the text in txt_AnnualTotalDemand(Distillate) 
+2017-07-12 16:22:22,328 INFO  [Log] Clicking on Webelement btn_AccountSave 
+2017-07-12 16:22:23,946 INFO  [Log] Switch to Default Iframe 
+2017-07-12 16:22:25,778 INFO  [Log] Taking Screenshot 
+2017-07-12 16:22:35,410 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:22:35,410 INFO  [Log] X 
+2017-07-12 16:22:35,410 INFO  [Log] X 
+2017-07-12 16:22:35,410 INFO  [Log] X 
+2017-07-12 16:22:35,410 INFO  [Log] X 
+2017-07-12 16:22:35,411 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:22:35,411 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:22:35,411 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 refreshData       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:22:35,411 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:22:35,411 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:22:35,414 INFO  [Log] Refreshing Data 
+2017-07-12 16:22:41,694 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:22:41,694 INFO  [Log] X 
+2017-07-12 16:22:41,694 INFO  [Log] X 
+2017-07-12 16:22:41,694 INFO  [Log] X 
+2017-07-12 16:22:41,694 INFO  [Log] X 
+2017-07-12 16:22:41,695 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:22:41,695 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:22:41,695 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Close_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 16:22:41,695 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:22:41,695 INFO  [Log] **************************************************************************************** 
+2017-07-12 16:22:41,708 INFO  [Log] Closing the browser 
+2017-07-12 16:22:52,475 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 16:22:52,475 INFO  [Log] X 
+2017-07-12 16:22:52,476 INFO  [Log] X 
+2017-07-12 16:22:52,476 INFO  [Log] X 
+2017-07-12 16:22:52,476 INFO  [Log] X 
+2017-07-12 19:06:12,890 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:06:12,908 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:06:12,908 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Open_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:06:12,908 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:06:12,908 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:06:12,911 INFO  [Log] Opening Browser 
+2017-07-12 19:06:32,216 INFO  [Log] Chrome browser started 
+2017-07-12 19:06:34,630 INFO  [Log] Navigating to URL 
+2017-07-12 19:06:50,155 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:06:50,155 INFO  [Log] X 
+2017-07-12 19:06:50,155 INFO  [Log] X 
+2017-07-12 19:06:50,155 INFO  [Log] X 
+2017-07-12 19:06:50,155 INFO  [Log] X 
+2017-07-12 19:06:50,157 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:06:50,158 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:06:50,159 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login2App       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:06:50,159 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:06:50,159 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:06:50,183 INFO  [Log] Entering the text in txtbx_Username 
+2017-07-12 19:06:52,862 INFO  [Log] Entering the text in txtbx_Passwd 
+2017-07-12 19:06:54,875 INFO  [Log] Clicking on Webelement btn_Login 
+2017-07-12 19:07:03,693 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:07:03,693 INFO  [Log] X 
+2017-07-12 19:07:03,693 INFO  [Log] X 
+2017-07-12 19:07:03,693 INFO  [Log] X 
+2017-07-12 19:07:03,693 INFO  [Log] X 
+2017-07-12 19:07:03,694 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:03,694 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:03,694 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:07:03,694 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:03,694 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:03,712 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:07:18,545 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:07:23,299 INFO  [Log] List of elements 
+2017-07-12 19:07:23,835 ERROR [Log] Not able to select element --- For input string: "//label[@class='slds-radio']/div/input" 
+2017-07-12 19:07:28,441 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:07:28,441 INFO  [Log] X 
+2017-07-12 19:07:28,441 INFO  [Log] X 
+2017-07-12 19:07:28,441 INFO  [Log] X 
+2017-07-12 19:07:28,442 INFO  [Log] X 
+2017-07-12 19:07:28,442 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:28,442 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:28,442 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:07:28,442 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:28,442 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:28,468 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:07:30,857 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:07:32,677 INFO  [Log] List of elements 
+2017-07-12 19:07:32,677 ERROR [Log] Not able to select element --- For input string: "//label[@class='slds-radio']/div/input" 
+2017-07-12 19:07:35,541 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:07:35,541 INFO  [Log] X 
+2017-07-12 19:07:35,541 INFO  [Log] X 
+2017-07-12 19:07:35,541 INFO  [Log] X 
+2017-07-12 19:07:35,541 INFO  [Log] X 
+2017-07-12 19:07:35,541 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:35,541 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:35,541 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:07:35,541 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:35,541 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:35,555 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:07:37,246 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:07:40,939 INFO  [Log] List of elements 
+2017-07-12 19:07:40,939 ERROR [Log] Not able to select element --- For input string: "//label[@class='slds-radio']/div/input" 
+2017-07-12 19:07:43,928 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:07:43,928 INFO  [Log] X 
+2017-07-12 19:07:43,928 INFO  [Log] X 
+2017-07-12 19:07:43,928 INFO  [Log] X 
+2017-07-12 19:07:43,928 INFO  [Log] X 
+2017-07-12 19:07:43,929 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:43,929 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:43,929 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:07:43,929 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:43,929 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:43,939 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:07:46,021 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:07:47,927 INFO  [Log] List of elements 
+2017-07-12 19:07:47,927 ERROR [Log] Not able to select element --- For input string: "//label[@class='slds-radio']/div/input" 
+2017-07-12 19:07:51,096 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:07:51,096 INFO  [Log] X 
+2017-07-12 19:07:51,096 INFO  [Log] X 
+2017-07-12 19:07:51,096 INFO  [Log] X 
+2017-07-12 19:07:51,096 INFO  [Log] X 
+2017-07-12 19:07:51,096 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:51,096 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:51,096 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:07:51,096 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:51,096 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:51,111 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:07:52,726 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:07:55,256 INFO  [Log] List of elements 
+2017-07-12 19:07:55,257 ERROR [Log] Not able to select element --- For input string: "//label[@class='slds-radio']/div/input" 
+2017-07-12 19:07:58,609 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:07:58,609 INFO  [Log] X 
+2017-07-12 19:07:58,609 INFO  [Log] X 
+2017-07-12 19:07:58,609 INFO  [Log] X 
+2017-07-12 19:07:58,609 INFO  [Log] X 
+2017-07-12 19:07:58,610 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:58,610 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:58,610 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:07:58,610 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:58,610 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:07:58,618 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:08:01,336 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:08:04,425 INFO  [Log] List of elements 
+2017-07-12 19:08:04,425 ERROR [Log] Not able to select element --- For input string: "//label[@class='slds-radio']/div/input" 
+2017-07-12 19:08:11,408 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:08:11,408 INFO  [Log] X 
+2017-07-12 19:08:11,408 INFO  [Log] X 
+2017-07-12 19:08:11,408 INFO  [Log] X 
+2017-07-12 19:08:11,408 INFO  [Log] X 
+2017-07-12 19:08:11,409 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:11,409 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:11,409 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:08:11,409 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:11,409 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:11,425 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:08:14,184 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:08:17,394 INFO  [Log] List of elements 
+2017-07-12 19:08:17,394 ERROR [Log] Not able to select element --- For input string: "//label[@class='slds-radio']/div/input" 
+2017-07-12 19:08:23,102 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:08:23,102 INFO  [Log] X 
+2017-07-12 19:08:23,102 INFO  [Log] X 
+2017-07-12 19:08:23,102 INFO  [Log] X 
+2017-07-12 19:08:23,102 INFO  [Log] X 
+2017-07-12 19:08:23,102 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:23,102 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:23,102 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:08:23,102 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:23,102 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:23,124 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:08:25,903 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:08:29,535 INFO  [Log] List of elements 
+2017-07-12 19:08:29,535 ERROR [Log] Not able to select element --- For input string: "//label[@class='slds-radio']/div/input" 
+2017-07-12 19:08:36,666 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:08:36,666 INFO  [Log] X 
+2017-07-12 19:08:36,666 INFO  [Log] X 
+2017-07-12 19:08:36,666 INFO  [Log] X 
+2017-07-12 19:08:36,666 INFO  [Log] X 
+2017-07-12 19:08:36,666 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:36,666 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:36,666 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Close_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:08:36,666 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:36,666 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:08:36,669 INFO  [Log] Closing the browser 
+2017-07-12 19:08:47,643 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:08:47,643 INFO  [Log] X 
+2017-07-12 19:08:47,643 INFO  [Log] X 
+2017-07-12 19:08:47,643 INFO  [Log] X 
+2017-07-12 19:08:47,643 INFO  [Log] X 
+2017-07-12 19:18:35,412 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:18:35,413 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:18:35,413 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Open_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:18:35,413 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:18:35,413 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:18:35,415 INFO  [Log] Opening Browser 
+2017-07-12 19:18:43,357 INFO  [Log] Chrome browser started 
+2017-07-12 19:18:46,203 INFO  [Log] Navigating to URL 
+2017-07-12 19:19:00,932 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:19:00,932 INFO  [Log] X 
+2017-07-12 19:19:00,932 INFO  [Log] X 
+2017-07-12 19:19:00,932 INFO  [Log] X 
+2017-07-12 19:19:00,932 INFO  [Log] X 
+2017-07-12 19:19:00,933 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:00,933 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:00,933 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Login2App       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:19:00,933 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:00,933 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:00,953 INFO  [Log] Entering the text in txtbx_Username 
+2017-07-12 19:19:03,980 INFO  [Log] Entering the text in txtbx_Passwd 
+2017-07-12 19:19:06,172 INFO  [Log] Clicking on Webelement btn_Login 
+2017-07-12 19:19:30,592 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:19:30,593 INFO  [Log] X 
+2017-07-12 19:19:30,593 INFO  [Log] X 
+2017-07-12 19:19:30,593 INFO  [Log] X 
+2017-07-12 19:19:30,593 INFO  [Log] X 
+2017-07-12 19:19:30,593 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:30,593 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:30,593 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:19:30,593 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:30,593 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:30,608 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:19:33,770 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:19:36,884 INFO  [Log] List of elements 
+2017-07-12 19:19:36,937 ERROR [Log] Not able to select element --- For input string: "//div/label[@class='slds-radio']/div/input" 
+2017-07-12 19:19:40,274 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:19:40,274 INFO  [Log] X 
+2017-07-12 19:19:40,274 INFO  [Log] X 
+2017-07-12 19:19:40,274 INFO  [Log] X 
+2017-07-12 19:19:40,274 INFO  [Log] X 
+2017-07-12 19:19:40,274 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:40,275 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:40,275 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:19:40,275 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:40,275 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:40,291 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:19:42,383 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:19:44,089 INFO  [Log] List of elements 
+2017-07-12 19:19:44,090 ERROR [Log] Not able to select element --- For input string: "//div/label[@class='slds-radio']/div/input" 
+2017-07-12 19:19:46,895 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:19:46,895 INFO  [Log] X 
+2017-07-12 19:19:46,895 INFO  [Log] X 
+2017-07-12 19:19:46,895 INFO  [Log] X 
+2017-07-12 19:19:46,895 INFO  [Log] X 
+2017-07-12 19:19:46,896 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:46,896 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:46,896 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:19:46,896 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:46,896 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:46,904 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:19:48,761 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:19:52,744 INFO  [Log] List of elements 
+2017-07-12 19:19:52,744 ERROR [Log] Not able to select element --- For input string: "//div/label[@class='slds-radio']/div/input" 
+2017-07-12 19:19:55,611 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:19:55,612 INFO  [Log] X 
+2017-07-12 19:19:55,612 INFO  [Log] X 
+2017-07-12 19:19:55,612 INFO  [Log] X 
+2017-07-12 19:19:55,612 INFO  [Log] X 
+2017-07-12 19:19:55,612 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:55,612 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:55,612 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:19:55,612 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:55,612 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:19:55,620 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:19:57,677 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:20:00,632 INFO  [Log] List of elements 
+2017-07-12 19:20:00,632 ERROR [Log] Not able to select element --- For input string: "//div/label[@class='slds-radio']/div/input" 
+2017-07-12 19:20:03,644 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:20:03,644 INFO  [Log] X 
+2017-07-12 19:20:03,644 INFO  [Log] X 
+2017-07-12 19:20:03,644 INFO  [Log] X 
+2017-07-12 19:20:03,644 INFO  [Log] X 
+2017-07-12 19:20:03,644 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:03,644 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:03,644 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:20:03,644 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:03,644 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:03,660 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:20:05,893 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:20:08,518 INFO  [Log] List of elements 
+2017-07-12 19:20:08,518 ERROR [Log] Not able to select element --- For input string: "//div/label[@class='slds-radio']/div/input" 
+2017-07-12 19:20:12,256 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:20:12,257 INFO  [Log] X 
+2017-07-12 19:20:12,257 INFO  [Log] X 
+2017-07-12 19:20:12,257 INFO  [Log] X 
+2017-07-12 19:20:12,257 INFO  [Log] X 
+2017-07-12 19:20:12,257 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:12,257 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:12,257 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:20:12,257 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:12,257 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:12,276 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:20:14,109 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:20:15,827 INFO  [Log] List of elements 
+2017-07-12 19:20:15,846 ERROR [Log] Not able to select element --- For input string: "//div/label[@class='slds-radio']/div/input" 
+2017-07-12 19:20:19,025 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:20:19,026 INFO  [Log] X 
+2017-07-12 19:20:19,026 INFO  [Log] X 
+2017-07-12 19:20:19,026 INFO  [Log] X 
+2017-07-12 19:20:19,026 INFO  [Log] X 
+2017-07-12 19:20:19,026 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:19,026 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:19,026 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:20:19,026 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:19,026 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:19,031 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:20:20,612 INFO  [Log] Clicking on Webelement btn_New 
+2017-07-12 19:20:22,270 INFO  [Log] List of elements 
+2017-07-12 19:20:22,270 ERROR [Log] Not able to select element --- For input string: "//div/label[@class='slds-radio']/div/input" 
+2017-07-12 19:20:23,552 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:20:23,553 INFO  [Log] X 
+2017-07-12 19:20:23,553 INFO  [Log] X 
+2017-07-12 19:20:23,553 INFO  [Log] X 
+2017-07-12 19:20:23,553 INFO  [Log] X 
+2017-07-12 19:20:23,553 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:23,553 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:23,553 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 CreateAccount       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:20:23,553 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:23,553 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:23,559 INFO  [Log] Clicking on Webelement Account 
+2017-07-12 19:20:23,673 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:20:23,673 INFO  [Log] X 
+2017-07-12 19:20:23,673 INFO  [Log] X 
+2017-07-12 19:20:23,673 INFO  [Log] X 
+2017-07-12 19:20:23,673 INFO  [Log] X 
+2017-07-12 19:20:23,674 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:23,674 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:23,674 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 Close_CRM_Application       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2017-07-12 19:20:23,674 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:23,674 INFO  [Log] **************************************************************************************** 
+2017-07-12 19:20:23,678 INFO  [Log] Closing the browser 
+2017-07-12 19:20:29,872 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2017-07-12 19:20:29,872 INFO  [Log] X 
+2017-07-12 19:20:29,872 INFO  [Log] X 
+2017-07-12 19:20:29,872 INFO  [Log] X 
+2017-07-12 19:20:29,872 INFO  [Log] X 

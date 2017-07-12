@@ -1,0 +1,27 @@
+#Login Page
+txtbx_Username=//input[@id='username']
+txtbx_Passwd=//input[@id='password']
+btn_Login=//input[@id='Login']
+
+#Account Page
+Account=//a[@title='Accounts'][@href='#/sObject/Account/home']
+btn_New=//div[@title='New']
+radio_recordType1=//div/label/div[2]
+radio_recordType=//fieldset/div[2]
+btn_Next=//div[@class='forceChangeRecordTypeFooter']/button[2]
+txt_AccountName=input[data-interactive-lib-uid='13']
+txt_Phone=input[data-interactive-lib-uid='21']
+txt_AnnualTotalDemand(Gas)=input[data-interactive-lib-uid='41']
+txt_AnnualTotalDemand(Distillate)=input[data-interactive-lib-uid='42']
+txt_AnnualMpcDemand(GAS)=input[data-interactive-lib-uid='80']
+txt_AnnualMpcDemand(Distele)=input[data-interactive-lib-uid='81']
+txt_SCOA=input[data-interactive-lib-uid='101']
+txt_ClassOfTrade=input[data-interactive-lib-uid='100']
+txt_CustomerHistory=textarea[data-interactive-lib-uid='102']
+txt_Street=textarea[data-interactive-lib-uid='109']
+txt_City=input[data-interactive-lib-uid='105']
+txt_State=input[data-interactive-lib-uid='106']
+txt_Country=input[data-interactive-lib-uid='107']
+txt_PostalCode=input[data-interactive-lib-uid='108']
+btn_AccountSave=//button[3]
+
