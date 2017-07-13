@@ -6,6 +6,7 @@ btn_Login=//input[@id='Login']
 #Account Page
 Account=//a[@title='Accounts'][@href='#/sObject/Account/home']
 btn_New=//div[@title='New']
+radio_Division=input[type='radio']
 radio_recordTypeBrand=input[data-interactive-lib-uid='207']
 radio_recordTypeAsphalt=input[data-interactive-lib-uid='208']
 radio_recordTypePetro=input[data-interactive-lib-uid='210']
@@ -27,3 +28,20 @@ txt_Country=input[data-interactive-lib-uid='107']
 txt_PostalCode=input[data-interactive-lib-uid='108']
 btn_AccountSave=//button[3]
 
+
+//div[3]/div[1]/div/div/div/input
+//div[1]/div[2]/div/div/div/input
+//div[7]/div[2]/div/div/div/input
+AccountTypeBrand=//div[1]/label/div[1]/span
+AccountTypeAsphalt=//div[3]/label/div[1]/span
+AccountTypeParent=//div[5]/label/div[1]/span
+AccountTypePetroChem=//div[7]/label/div[1]/span
+AccountTypeWholeSale=//div[9]/label/div[1]/span
+AccountName=//div[1]/div/div/div/div/div/div/div/div/div/div/div/input
+LegacyAccount=//div[2]/div/div/div/div/div/div/div/div/div/div/div/input
+SecondatyTM=//div[2]/div/div/div/div/div/div/div/input
+AnchorJobber=//div[5]/div[1]/div/div/div/div/div/div/div/a
+AccountStatus=//div[4]/div[2]/div/div/div/div/div/div/div/a
+SearchAddress=//fieldset/div/div/button
+AddressSearch=//div[2]/div/div[2]/div/input
+SearchResult=//li[1]/a/div/div/div[1]/span

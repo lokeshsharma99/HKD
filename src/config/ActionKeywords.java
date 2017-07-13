@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import javax.imageio.ImageIO;
@@ -45,6 +46,7 @@ import utility.ExcelUtils;
 public class ActionKeywords {
 		public static String sTestCaseID;
 		public static WebDriver driver;
+		public static DataFactory df = new DataFactory();
 			
 	public static void openBrowser(String object,String data){		
 		Log.info("Opening Browser");
@@ -546,6 +548,29 @@ public class ActionKeywords {
 							 DriverScript.bResult = false;
 				         	}
 						}
+			 
+			 public static void radio(String object, String data) throws Exception{
+					
+				 try{
+							driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+							Log.info("Clicking on Radio Button");						
+							List<WebElement>radioButton = driver.findElements(By.cssSelector((OR.getProperty(object))));
+						 
+						    Random random = new Random();
+						    int index = random.nextInt(radioButton.size());
+						    radioButton.get(index).click();
+						/*    int end=radioButton.size();
+						    int index=df.getNumberBetween(0,end);
+						    Select select = new Select((WebElement) radioButton);	
+							select.selectByIndex(2);		*/		
+							driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+							
+						 }catch(Exception e){
+							 Log.error("Not able to Click on Radio Button --- " + e.getMessage());
+							 DriverScript.bResult = false;
+				         	}
+						}
+			 
 					}
 
 			 

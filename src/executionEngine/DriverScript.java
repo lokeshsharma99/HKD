@@ -6,7 +6,6 @@ import java.util.Date;
 import java.util.Properties;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.xml.DOMConfigurator;
-
 import config.ActionKeywords;
 import config.Constants;
 import utility.ExcelUtils;
@@ -92,7 +91,7 @@ public class DriverScript {
 				//	ActionKeywords.closeBrowser("","");	
 					break;
 					}
-				}
+				};
 			}
      }
      
